@@ -1,18 +1,15 @@
 {
   "name": "chatbot",
   "version": "1.0.0",
-  "main": "chatbot.js",
-  "scripts": {
-    "start": "node chatbot.js"
-  },
   "engines": {
     "node": "14.x"
   },
+  "scripts": {
+    "start": "node chatbot.js"
+  },
   "dependencies": {
-    "chatbot": "file:",
-    "puppeteer": "^24.2.1",
-    "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.15.1",
-    "whatsapp.js": "^0.0.1"
+    "qrcode-terminal": "^0.12.0",
+    "puppeteer": "^10.4.0"
   }
 }
